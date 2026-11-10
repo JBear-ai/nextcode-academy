@@ -37,6 +37,4 @@ AI를 활용한 바이브 코딩 실습 평가 과제로, 전문 교육기관의
 
 ## 배포 주소
 
-추후 GitHub Pages 배포 후 주소를 기록합니다.
-
-`https://<github-username>.github.io/<repository-name>/`
+https://jbear-ai.github.io/nextcode-academy/
