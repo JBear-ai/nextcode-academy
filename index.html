@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI와 웹 개발을 프로젝트 중심으로 배우는 가상의 IT 교육기관 NEXTCODE ACADEMY입니다.">
+  <title>NEXTCODE ACADEMY | 프로젝트로 증명하는 개발 교육</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">본문 바로가기</a>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="NEXTCODE ACADEMY 홈">
+        <span class="logo-mark" aria-hidden="true">N</span>
+        <span>NEXTCODE <strong>ACADEMY</strong></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+        <span class="sr-only">메뉴 열기</span>
+        <span class="menu-line"></span><span class="menu-line"></span><span class="menu-line"></span>
+      </button>
+      <nav class="primary-navigation" id="primary-navigation" aria-label="주요 메뉴">
+        <a href="#courses">교육과정</a>
+        <a href="#features">교육특징</a>
+        <a href="#projects">프로젝트</a>
+        <a href="#guide">교육안내</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="top">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow light"><span></span>PROJECT-BASED TECH ACADEMY</p>
+          <h1>실무를 배우고,<br><em>프로젝트로 증명하다.</em></h1>
+          <p class="hero-description">AI와 웹 개발의 핵심 기술을 배우고, 실제 서비스를 만드는 프로젝트를 통해 개발 역량을 키워보세요.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#courses">교육과정 살펴보기 <span aria-hidden="true">→</span></a>
+            <a class="button button-ghost" href="#features">NEXTCODE 알아보기</a>
+          </div>
+          <ul class="hero-tags" aria-label="핵심 교육 분야">
+            <li>AI SERVICE</li><li>FULL-STACK</li><li>TEAM PROJECT</li>
+          </ul>
+        </div>
+        <div class="hero-visual" aria-label="개발 학습 과정을 표현한 코드 인터페이스 일러스트레이션">
+          <div class="code-window">
+            <div class="window-bar"><span></span><span></span><span></span><small>nextcode / learning-path.js</small></div>
+            <div class="code-body" aria-hidden="true">
+              <div><i>01</i><code><b>const</b> journey = {</code></div>
+              <div><i>02</i><code>&nbsp;&nbsp;learn: <q>core skills</q>,</code></div>
+              <div><i>03</i><code>&nbsp;&nbsp;build: <q>real projects</q>,</code></div>
+              <div><i>04</i><code>&nbsp;&nbsp;prove: <q>your potential</q></code></div>
+              <div><i>05</i><code>};</code></div>
+              <div><i>06</i><code><b>nextCode</b>(journey);</code></div>
+            </div>
+            <div class="terminal-line"><span>✓</span> Ready to build your next project</div>
+          </div>
+          <div class="floating-card card-ai"><span>AI</span><strong>Intelligence</strong><small>LLM · RAG · Agent</small></div>
+          <div class="floating-card card-web"><span>&lt;/&gt;</span><strong>Web Service</strong><small>Front · Back · DB</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section courses" id="courses">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span></span>LEARNING TRACKS</p><h2>목표에 맞는 교육과정</h2></div>
+          <p>핵심 개념부터 서비스 구현까지, 단계적인 학습과 프로젝트 경험을 하나의 과정에 담았습니다.</p>
+        </div>
+        <div class="course-grid">
+          <article class="course-card" id="ai-course">
+            <div class="course-top">
+              <div class="course-icon ai-icon" aria-hidden="true">AI</div>
+              <span class="course-number">TRACK 01</span>
+            </div>
+            <h3>AI 서비스 개발</h3>
+            <p>Python, LLM, RAG, AI Agent를 학습하고 지능형 AI 서비스를 구현하는 과정</p>
+            <div class="course-block"><h4>주요 기술</h4><ul class="tech-list"><li>Python</li><li>LLM</li><li>RAG</li><li>AI Agent</li></ul></div>
+            <div class="course-block"><h4>학습 목표</h4><ul class="check-list"><li>생성형 AI 서비스 구조 이해</li><li>문서 검색·응답 시스템 구현</li><li>AI Agent 서비스 개발</li></ul></div>
+            <div class="project-preview"><span>PROJECT</span><strong>문서 검색 기반 AI 챗봇</strong></div>
+            <a class="text-link" href="#ai-project">프로젝트 상세 보기 <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="course-card" id="web-course">
+            <div class="course-top">
+              <div class="course-icon web-icon" aria-hidden="true">&lt;/&gt;</div>
+              <span class="course-number">TRACK 02</span>
+            </div>
+            <h3>풀스택 웹 개발</h3>
+            <p>프론트엔드부터 백엔드와 데이터베이스까지 학습하여 웹 서비스를 구현하는 과정</p>
+            <div class="course-block"><h4>주요 기술</h4><ul class="tech-list"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>React</li><li>Java</li><li>Spring Boot</li><li>MySQL</li></ul></div>
+            <div class="course-block"><h4>학습 목표</h4><ul class="check-list"><li>UI 개발 및 REST API 구현</li><li>데이터베이스 연동</li><li>프론트엔드와 백엔드 통합</li></ul></div>
+            <div class="project-preview"><span>PROJECT</span><strong>팀 협업 및 업무 관리 웹 서비스</strong></div>
+            <a class="text-link" href="#web-project">프로젝트 상세 보기 <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section features" id="features">
+      <div class="container">
+        <div class="center-heading"><p class="eyebrow"><span></span>WHY NEXTCODE<span></span></p><h2>배움을 결과로 연결하는 교육</h2><p>단순히 따라 하는 수업을 넘어, 스스로 설계하고 완성하는 경험을 만듭니다.</p></div>
+        <div class="feature-grid">
+          <article><span class="feature-index">01</span><div class="feature-icon" aria-hidden="true">↗</div><h3>기초부터 실무까지</h3><p>핵심 원리와 문법을 탄탄히 익힌 뒤, 실무에서 사용하는 기술과 개발 흐름으로 단계적으로 확장합니다.</p></article>
+          <article><span class="feature-index">02</span><div class="feature-icon" aria-hidden="true">⌘</div><h3>프로젝트 중심 경험</h3><p>문제를 정의하고 기능을 구현하며 오류를 해결하는 전 과정을 통해 실제 개발 경험을 쌓습니다.</p></article>
+          <article><span class="feature-index">03</span><div class="feature-icon" aria-hidden="true">◆</div><h3>포트폴리오 역량 강화</h3><p>학습 결과를 프로젝트로 정리하고, 구현 과정과 기술적 선택을 설명할 수 있는 역량을 기릅니다.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-heading project-heading">
+          <div><p class="eyebrow"><span></span>BUILD &amp; PROVE</p><h2>배운 기술을 서비스로</h2></div>
+          <p>교육과정에서 익힌 기술을 연결해, 문제를 해결하는 하나의 완성된 서비스를 만들어봅니다.</p>
+        </div>
+        <div class="project-list">
+          <article class="project-card" id="ai-project">
+            <div class="project-info"><span class="project-label">AI PROJECT</span><h3>문서 검색 기반<br>AI 챗봇</h3><ul><li>문서 검색 및 정보 활용</li><li>LLM 기반 응답 생성</li><li>RAG 구조 활용</li></ul><a href="#ai-course">AI 과정 다시 보기 <span aria-hidden="true">↑</span></a></div>
+            <div class="project-art ai-art" aria-hidden="true">
+              <div class="doc-stack"><span></span><span></span><span></span></div>
+              <div class="chat-box"><div class="bot-dot">N</div><p>검색한 문서를 바탕으로<br>답변을 생성하고 있어요.</p><div class="typing"><i></i><i></i><i></i></div></div>
+              <svg viewBox="0 0 440 280"><path d="M70 215 C145 120 280 245 370 75"/><circle cx="70" cy="215" r="6"/><circle cx="370" cy="75" r="6"/></svg>
+            </div>
+          </article>
+          <article class="project-card reverse" id="web-project">
+            <div class="project-info"><span class="project-label">WEB PROJECT</span><h3>팀 협업 관리<br>웹 서비스</h3><ul><li>프로젝트 및 업무 관리</li><li>사용자별 업무 현황</li><li>React 및 Spring Boot 기반 서비스 구성</li></ul><a href="#web-course">웹 과정 다시 보기 <span aria-hidden="true">↑</span></a></div>
+            <div class="project-art dashboard-art" aria-hidden="true">
+              <div class="dashboard-window"><div class="dash-sidebar"><b>N</b><i></i><i></i><i></i></div><div class="dash-main"><div class="dash-header"></div><div class="dash-columns"><div><b>TO DO</b><span></span><span></span></div><div><b>IN PROGRESS</b><span></span><span></span></div><div><b>DONE</b><span></span><span></span></div></div></div></div>
+            </div>
+          </article>
+        </div>
+        <p class="project-notice"><span aria-hidden="true">ⓘ</span> 위 프로젝트는 실제 수강생 작품이 아닌, 교육과정에서 진행할 수 있는 프로젝트 예시입니다.</p>
+      </div>
+    </section>
+
+    <section class="guide" id="guide">
+      <div class="guide-pattern" aria-hidden="true"></div>
+      <div class="container guide-inner">
+        <p class="eyebrow light"><span></span>START YOUR JOURNEY</p>
+        <h2>당신의 다음 개발 여정을<br>시작하세요.</h2>
+        <p>관심 있는 교육과정을 살펴보고, 프로젝트 중심의 학습으로 개발 역량을 키워보세요.</p>
+        <a class="button button-primary" href="#courses">교육과정 다시 보기 <span aria-hidden="true">↑</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div><a class="logo footer-logo" href="#top"><span class="logo-mark">N</span><span>NEXTCODE <strong>ACADEMY</strong></span></a><p>AI · Web Development · Project-Based Learning</p></div>
+      <nav aria-label="하단 메뉴"><a href="#courses">교육과정</a><a href="#features">교육특징</a><a href="#projects">프로젝트</a><a href="#guide">교육안내</a></nav>
+    </div>
+    <div class="container footer-bottom"><p>본 홈페이지는 바이브 코딩 실습 평가를 위해 제작한 가상의 IT 교육기관 홍보 페이지입니다.</p><p>© 2026 NEXTCODE ACADEMY</p></div>
+  </footer>
+</body>
+</html>
